@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { Route, Redirect } from 'react-router-dom'
+import PList from './components/pokemonList/PokemonsList'
+import PDetails from './components/pokemonDetails/PokemonDetails'
+import PAbility from './components/pokemonAbilities/PokemonAbilities'
+import Search from './components/search/Search'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends Component {
+  
+
+  render() {
+    return (
+      <div className="App">
+        <Route exact path='/' component={Search} />
+        <Route exact path='/' component={PList} />
+        <Route exact path='/details' component={PDetails} />
+        <Route exact path='/ability' component={PAbility} />
+        <Redirect to='/' />
+      </div>
+    );
+  }
 }
 
 export default App;
