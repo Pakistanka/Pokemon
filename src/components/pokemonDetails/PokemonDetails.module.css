@@ -1,0 +1,60 @@
+.wrapper {
+    margin: 8vh 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.pName {
+    text-transform: capitalize;
+}
+
+.pokeImg {
+    width: 35%;
+    height: 35%;
+    margin: 0 8vw;
+}
+
+.pTypes {
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 2px white dotted;
+    margin: 0px 10px;
+}
+
+.types_wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.pAbilities {
+    cursor: pointer;
+}
+
+.button {
+    width: 15%;
+    padding: 15px;
+    margin: 15px 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(184, 184, 184, 1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(184, 184, 184, 1);
+    box-shadow: 5px 5px 5px 0px rgba(184, 184, 184, 1);
+    font-weight: 700;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    font-family: verdana;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    background: linear-gradient(45deg, #eea949, #ff3984) center/0% 100% no-repeat;
+}
+
+.button:hover {
+    background-size: 100% 100%;
+}

@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pCard {
+    width: 25%;
+    padding: 15px;
+    margin: 15px 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(184, 184, 184, 1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(184, 184, 184, 1);
+    box-shadow: 5px 5px 5px 0px rgba(184, 184, 184, 1);
+    font-weight: 700;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    font-family: verdana;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    background: linear-gradient(45deg, #eea949, #ff3984) center/0% 100% no-repeat;
+}
+
+.pCard:hover {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(184, 184, 184, 1);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(184, 184, 184, 1);
+    box-shadow: 0px 0px 0px 0px rgba(184, 184, 184, 1);
+}
+
+.pName {
+    font-weight: 700;
+    /* text-transform: capitalize; */
+}
+
+.button {
+    width: 120px;
+    height: 4vh;
+}
+
+.pCard:hover {
+    background-size: 100% 100%;
+}

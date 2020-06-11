@@ -1,0 +1,45 @@
+.ability_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.ability_details {
+    font-size: 18px;
+    width: 70vw;
+}
+
+.ability_name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+    border: 2px dotted white;
+    padding: 10px;
+}
+
+.ability_button {
+    width: 15%;
+    padding: 15px;
+    margin: 15px 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(184, 184, 184, 1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(184, 184, 184, 1);
+    box-shadow: 5px 5px 5px 0px rgba(184, 184, 184, 1);
+    font-weight: 700;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    font-family: verdana;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    background: linear-gradient(45deg, #eea949, #ff3984) center/0% 100% no-repeat;
+}
+
+.ability_button:hover {
+    background-size: 100% 100%;
+}
