@@ -58,3 +58,22 @@
 .button:hover {
     background-size: 100% 100%;
 }
+
+@media screen and (max-width: 490px) {
+    .button {
+        width: 40%;
+    }
+    .types_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pTypes {
+        margin: 10px;
+    }
+    .types_title {
+        width: 100vw;
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
