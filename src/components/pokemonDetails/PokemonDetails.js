@@ -44,11 +44,11 @@ class pokemonDetails extends Component {
                     <button onClick={this.backClickhandler} className={s.button}>Back</button>
                     <h3>{pName}</h3>
                     <img className={s.pokeImg} src={pokemonImageUrl} alt="PokeImg" />
-                    <div className={s.types_wrapper}>Types: {pTypes}</div>
+                    <div className={s.types_wrapper}><span className={s.types_title}>Types:</span> {pTypes}</div>
                     <div>Weight: {this.props.pWeight} kg</div>
                     <div>Height: {this.props.pHeight} ft</div>
                     <div>Experience: {this.props.pExperience}</div>
-                    <div className={s.types_wrapper}>Abilitis: {pAbilities}</div>
+                    <div className={s.types_wrapper}><span className={s.types_title}>Abilities:</span> {pAbilities}</div>
                 </div>
             </div>
         )
